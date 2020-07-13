@@ -1,6 +1,5 @@
-const PORT = process.env.PORT || 8080;
-const host = process.env.NODE_ENV ? '35.222.70.224' : "localhost";// kubernetes ingress ip 35.222.70.224
-const baseApiUrl = `http://${host}:${PORT}`;
+const host = process.env.NODE_ENV ? '35.222.70.224:3000' : "localhost:8080";// kubernetes ingress ip 35.222.70.224
+const baseApiUrl = `http://${host}`;
 
 module.exports = {
   cors: {
