@@ -1,4 +1,5 @@
-const baseApiUrl = 'http://localhost:8080';
+const PORT = process.env.PORT || 8080;
+const baseApiUrl = `http://localhost:${PORT}`;
 
 module.exports = {
   cors: {
