@@ -7,7 +7,7 @@ COPY . .
 RUN npm install
 
 RUN npm run build
-COPY ./src/server/server.js ./build/server.js
+ADD ./src/server ./build/server
 
 ENV NODE_ENV production
 
