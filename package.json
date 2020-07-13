@@ -10,6 +10,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "cors": "^2.8.5",
+    "express-history-api-fallback": "^2.2.1",
     "material-ui": "^0.20.2",
     "node-sass": "^4.14.1",
     "re-reselect": "^4.0.0",
@@ -23,9 +24,9 @@
     "reselect": "^4.0.0"
   },
   "scripts": {
-    "start":"concurrently \"npm run server\" \"npm run ui",
+    "start": "concurrently \"npm run server\" \"npm run ui",
     "ui": "react-scripts start",
-    "server": "node build/server/server.js",
+    "server": "node build/server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
