@@ -2,7 +2,7 @@
     "data": [
         {
             "words": {
-				"appHeaderlb":"FIFA Order Management",
+				"appHeaderlb":"Order Management",
 				"ordersDashboardWelcomelb":"Welcome to Orders Dashboard",
 				"homelb":"Dashboards",
                 "customersOptlb": "Customers",
@@ -16,7 +16,7 @@
         },
         {
             "words": {
-                "appHeaderlb":"Gestion des commandes FIFA",
+                "appHeaderlb":"Gestion des commandes",
                 "ordersDashboardWelcomelb":"Bienvenue dans le tableau de bord des commandes",
 				"homelb": "Tableaux de bord",
 				"customersOptlb": "Clients",
